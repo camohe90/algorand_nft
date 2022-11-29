@@ -24,7 +24,7 @@ def create_non_fungible_token():
 
   # Change algod_token and algod_address to connect to a different client
     algod_address = "https://testnet-algorand.api.purestake.io/ps2"
-    algod_token = "Pq1dKdjpiSam3q9Gc0DBbqxrp7ylBHy1yK0vfu5c"
+    algod_token = "INGRESA TU TOKEN AQUI"
     headers = {
     "X-API-Key": algod_token,
     }
