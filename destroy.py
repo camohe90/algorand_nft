@@ -21,8 +21,8 @@ def delete_non_fungible_token():
     accounts[1]['pk'] = MY_ADDRESS
     accounts[1]['sk'] = PRIVATE_KEY
 
-    algod_address = os.environ.get("algod_address")
-    algod_token = os.environ.get("algod_token")
+    algod_address = os.environ.get("TESTNET_URL")
+    algod_token = os.environ.get("API_TOKEN")
     headers = {
     "X-API-Key": algod_token,
     }

@@ -33,14 +33,18 @@ Obtendremos un resultado como el siguiente
 
 Ahora solo resta fondear la cuenta con el [Algo Dispenser](https://dispenser.testnet.aws.algodev.network/)
 
-3. Crear archivo de variables de entorno
+3. Crear un cuenta en [Purestake](https://developer.purestake.io/) para poder obtener token con el que podremos enviar información a las testnet de Algorand. Debemos agregar esta información en el archivo de variables de entorno.
 
-Puedes agregar tus variables de entorno en el archivo `.env`, reemplazando los datos de acuerdo a los que te arroje el script create_account.py, este proceso se debe realizar solamente una vez:
+4. Crear archivo de variables de entorno
+
+Puedes agregar tus variables de entorno en el archivo `.env`, reemplazando los datos de acuerdo a los que te arroje el script create_account.py y los datos de tu cuenta de [Purestake](https://developer.purestake.io/) este proceso se debe realizar solamente una vez:
 
 ```
 MY_ADDRESS= ""
 PRIVATE_KEY= ""
 PASSPHRASE= ""
+TESTNET_URL = ""
+API_TOKEN = ""
 ```
 Para poder usar la información de nuestro archivo `.env` debemos instalar la siguiente dependencia.
 
@@ -77,6 +81,9 @@ pip install python-dotenv
 
 ![NFT en explorer](image/nft.png)
 
+## Scripts adicionales
+
+Creamos el script `destroy.py` que lo que hace es eliminar el token Id que ingresemos por terminal.
 
 
 ## Recursos
