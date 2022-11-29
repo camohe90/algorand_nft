@@ -48,11 +48,15 @@ pip install python-dotenv
 
 
 
-
-
 ## Ahora si ya estamos listos 
 
-Ahora simplemente debes ingresar a [Pera Explorer Testnet](https://testnet.explorer.perawallet.app/)
+1. Ahora simplemente debes ingresar a [Pera Explorer Testnet](https://testnet.explorer.perawallet.app/)
+
+2. Ingresar el token ID, para el ejemplo seria 146216282
+
+3. Obtendriamos una imagen como la que se aprecia a continuación
+
+![NFT en explorer](image/nft.png)
 
 
 
