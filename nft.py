@@ -43,8 +43,7 @@ def create_non_fungible_token():
     # JSON file
     dir_path = os.path.dirname(os.path.realpath(__file__))
     f = open (dir_path + '/metadata.json', "r")
-    print(f)
-
+    
   # Reading from file
     metadataJSON = json.loads(f.read())
     metadataStr = json.dumps(metadataJSON)
