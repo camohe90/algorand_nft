@@ -63,7 +63,7 @@ pip install python-dotenv
 
 ## Recursos
 
-Para empezar con brownie:
+Para empezar con Algorand de aconsejamos los siguiente recursos:
 
 * [Documentación Algorand](https://developer.algorand.org/)
 
