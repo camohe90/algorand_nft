@@ -1,0 +1,14 @@
+{
+    "name":"Argentina campeon",
+    "description":"Messi campeon Qatar 2022",
+    "image":"https://gateway.pinata.cloud/ipfs/QmZyWt2jV5ZenxPeYMLmP6Uh53t4JwbFTuFi8kfhf9xRbV",
+    "decimals":0,
+    "unitName":"MESNFT",
+    "image_integrity":"sha256-QmZyWt2jV5ZenxPeYMLmP6Uh53t4JwbFTuFi8kfhf9xRbV",
+    "image_mimetype":"image/jpg",
+    "properties":
+        {
+            "size":884874,
+            "title":"messi.jpg"
+            }
+}
