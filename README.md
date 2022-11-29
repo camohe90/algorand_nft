@@ -63,7 +63,7 @@ pip install python-dotenv
 
 ## Recursos
 
-Para empezar con Algorand de aconsejamos los siguiente recursos:
+Para empezar con Algorand te aconsejamos los siguiente recursos:
 
 * [Documentación Algorand](https://developer.algorand.org/)
 
