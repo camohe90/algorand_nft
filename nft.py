@@ -1,9 +1,9 @@
 import json
 import hashlib
 import os
-from algosdk import mnemonic
+from algosdk import mnemonic 
 from algosdk.v2client import algod
-from algosdk.future.transaction import AssetConfigTxn, wait_for_confirmation
+from algosdk.transaction import AssetConfigTxn, wait_for_confirmation
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -59,7 +59,7 @@ def create_non_fungible_token():
     txn = AssetConfigTxn(
         sender=accounts[1]['pk'],
         sp=params,
-        total=1,
+        total=5,
         default_frozen=False,
         unit_name="MESSINFT",
         asset_name="Messi collectio ",

@@ -1,0 +1,13 @@
+{
+    "name":"Boleta bootcamp 2023",
+    "description":"Con esta boleta pueden ingresar al bootcamp en la Universidad Sergio Arboleda",
+    "image":"https://aquamarine-narrow-hippopotamus-618.mypinata.cloud/ipfs/QmVQPQC3WmiNPFtq3dqDH8TxF2bTMWVBsLurtbT2b3hn7f",
+    "decimals":0,
+    "unitName":"BTCU",
+    "image_integrity":"sha256-QmVQPQC3WmiNPFtq3dqDH8TxF2bTMWVBsLurtbT2b3hn7f",
+    "image_mimetype":"image/png",
+    "properties":
+        {
+            "title":"Usa boleta"
+            }
+}
